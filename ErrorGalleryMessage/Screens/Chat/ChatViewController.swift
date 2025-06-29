@@ -20,7 +20,7 @@ final class ChatViewController: UIViewController {
     private let errorView = UIView()
     private let errorIcon = UIImageView()
     private let errorLabel = UILabel()
-    private let resendButton = ErorrMessageButton(type: .system)
+    private let resendButton = ErrorMessageButton(type: .system)
     
     private let bottomInputView = BottomInputView()
     

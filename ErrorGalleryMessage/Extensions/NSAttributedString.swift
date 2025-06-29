@@ -25,7 +25,7 @@ public extension NSAttributedString {
         let attributes: [NSAttributedString.Key: Any] = [
             .font: font,
             .foregroundColor: foregroundColor,
-            .kern: kern, // Letter spacing
+            .kern: kern, // Character spacing
             .paragraphStyle: paragraphStyle
         ]
 

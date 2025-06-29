@@ -1,5 +1,5 @@
 //
-//  ErorrMessageButton.swift
+//  ErrorMessageButton.swift
 //  ErrorGalleryMessage
 //
 //  Created by Ivan Ghiba on 29.06.2025.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ErorrMessageButton: UIButton {
+final class ErrorMessageButton: UIButton {
     private var defaultBackgroundColor: UIColor?
     private var highlightedBackgroundColor: UIColor? = .white.withAlphaComponent(0.1)
     
